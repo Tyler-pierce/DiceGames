@@ -1,0 +1,12 @@
+<?php
+
+/**
+ *  Bootstrap the dice game by including all necessary files.
+ *  
+ *  @author T Pierce <tyler.pierce@gmail.com>
+ */
+
+require_once 'interface/iGamesDice.php';
+
+require_once 'includes/gamesDice.php';
+
