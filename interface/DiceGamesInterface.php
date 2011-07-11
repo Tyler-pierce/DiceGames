@@ -12,4 +12,6 @@ interface DiceGamesInterface
     public function playGame ($gameName, $diceRolls);
 
     public function getSuggestion ($diceRolls);
+
+     public function getGames ();
 }

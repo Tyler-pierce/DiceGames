@@ -1,11 +1,7 @@
 <?php
 
 /**
- *  Test script for Dice on a Yacht
- * 
- *  - PHP 5.3 (5.2 might work but isn't tested)
- *  - Relative paths were used so test scripts using the bootstrap should be in same dir as test.php
- *  - please enjoy Dice on a Yacht in your favorite browser for optimal graphics
+ *  Test script for Dice, Simple single player play
  *  
  *  @author T Pierce <tyler.pierce@gmail.com>
  */

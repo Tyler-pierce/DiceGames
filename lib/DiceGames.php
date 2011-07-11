@@ -64,7 +64,7 @@ class DiceGames implements DiceGamesInterface
                                 'rules' => array(
                                     array('dupesOnly', 8),
                                 ),
-                                'description' => 8\'s score 8',
+                                'description' => '8\'s score 8',
                             ),
         'allSame'      =>   array(
                                 'rules' => array(
@@ -130,6 +130,11 @@ class DiceGames implements DiceGamesInterface
      *  Constructor
      */
     function __construct () {}
+
+    
+    /** Gets and Sets **/
+    public function getGames () { return $this->games; }
+
 
     /**
      *  Magic method __call
