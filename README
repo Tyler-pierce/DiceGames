@@ -2,8 +2,7 @@ Dice Games!
 
 Simple rules that can be combined to create fun dice games is the basic premise.  Many more combinations or rules and formats can easily be implemented using the base helpers.
 
-To test:
-http://fe962maa.joyent.us/github/DiceGames/test_adversarialRound.php
-
-For persistence between ajax requests uses memcached (see abstractions) and MemoryList located here:
-https://github.com/Tyler-pierce/MemoryList
+Features
+* Abstraction points for creating own save, prize, and multi round game interfaces.
+* Simple base rules are combined to create more complex win/point conditions, allowing for many combinations.
+* Example code included including simple client (requires memcache to save results between requests for multi round game).
